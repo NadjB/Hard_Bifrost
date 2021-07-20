@@ -40,7 +40,7 @@ AR Path="/618A061F" Ref="C?"  Part="1"
 AR Path="/6188E6DD/618A061F" Ref="C34"  Part="1" 
 F 0 "C34" H 9615 2296 50  0000 L CNN
 F 1 "100n" H 9615 2205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9538 2100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9538 2100 50  0001 C CNN
 F 3 "~" H 9500 2250 50  0001 C CNN
 	1    9500 2250
 	1    0    0    -1  
@@ -53,7 +53,7 @@ AR Path="/618A0625" Ref="C?"  Part="1"
 AR Path="/6188E6DD/618A0625" Ref="C32"  Part="1" 
 F 0 "C32" H 9115 2296 50  0000 L CNN
 F 1 "10u" H 9115 2205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9038 2100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9038 2100 50  0001 C CNN
 F 3 "~" H 9000 2250 50  0001 C CNN
 	1    9000 2250
 	1    0    0    -1  
@@ -66,7 +66,7 @@ AR Path="/618A062B" Ref="C?"  Part="1"
 AR Path="/6188E6DD/618A062B" Ref="C20"  Part="1" 
 F 0 "C20" H 2615 3296 50  0000 L CNN
 F 1 "4.7u" H 2615 3205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2538 3100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2538 3100 50  0001 C CNN
 F 3 "~" H 2500 3250 50  0001 C CNN
 	1    2500 3250
 	1    0    0    -1  
@@ -79,7 +79,7 @@ AR Path="/618A0631" Ref="R?"  Part="1"
 AR Path="/6188E6DD/618A0631" Ref="R29"  Part="1" 
 F 0 "R29" V 6900 2000 50  0000 C CNN
 F 1 "0.2" V 7000 2000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 6930 2000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6930 2000 50  0001 C CNN
 F 3 "~" H 7000 2000 50  0001 C CNN
 	1    7000 2000
 	0    1    1    0   
@@ -92,7 +92,7 @@ AR Path="/618A0637" Ref="R?"  Part="1"
 AR Path="/6188E6DD/618A0637" Ref="R30"  Part="1" 
 F 0 "R30" V 7543 3000 50  0000 C CNN
 F 1 "1k" V 7634 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7680 3000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7680 3000 50  0001 C CNN
 F 3 "~" H 7750 3000 50  0001 C CNN
 	1    7750 3000
 	0    1    1    0   
@@ -105,7 +105,7 @@ AR Path="/618A063D" Ref="R?"  Part="1"
 AR Path="/6188E6DD/618A063D" Ref="R28"  Part="1" 
 F 0 "R28" V 9150 3000 50  0000 C CNN
 F 1 "0" V 9250 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 9180 3000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9180 3000 50  0001 C CNN
 F 3 "~" H 9250 3000 50  0001 C CNN
 	1    9250 3000
 	0    1    1    0   
@@ -118,7 +118,7 @@ AR Path="/618A0643" Ref="R?"  Part="1"
 AR Path="/6188E6DD/618A0643" Ref="R39"  Part="1" 
 F 0 "R39" V 9043 3500 50  0000 C CNN
 F 1 "DEPOP" V 9134 3500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 9180 3500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9180 3500 50  0001 C CNN
 F 3 "~" H 9250 3500 50  0001 C CNN
 	1    9250 3500
 	0    1    1    0   
@@ -162,7 +162,7 @@ AR Path="/618A0658" Ref="C?"  Part="1"
 AR Path="/6188E6DD/618A0658" Ref="C37"  Part="1" 
 F 0 "C37" H 9615 4796 50  0000 L CNN
 F 1 "100n" H 9615 4705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9538 4600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9538 4600 50  0001 C CNN
 F 3 "~" H 9500 4750 50  0001 C CNN
 	1    9500 4750
 	1    0    0    -1  
@@ -175,7 +175,7 @@ AR Path="/618A065E" Ref="C?"  Part="1"
 AR Path="/6188E6DD/618A065E" Ref="C38"  Part="1" 
 F 0 "C38" H 9115 4796 50  0000 L CNN
 F 1 "10u" H 9115 4705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9038 4600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9038 4600 50  0001 C CNN
 F 3 "~" H 9000 4750 50  0001 C CNN
 	1    9000 4750
 	1    0    0    -1  
@@ -219,7 +219,7 @@ AR Path="/618A0673" Ref="C?"  Part="1"
 AR Path="/6188E6DD/618A0673" Ref="C19"  Part="1" 
 F 0 "C19" H 4115 3596 50  0000 L CNN
 F 1 "1u" H 4115 3505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4038 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4038 3400 50  0001 C CNN
 F 3 "~" H 4000 3550 50  0001 C CNN
 	1    4000 3550
 	1    0    0    -1  
@@ -232,7 +232,7 @@ AR Path="/618A0679" Ref="C?"  Part="1"
 AR Path="/6188E6DD/618A0679" Ref="C26"  Part="1" 
 F 0 "C26" V 6100 4000 50  0000 C CNN
 F 1 "100n" V 6400 4000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6288 3850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6288 3850 50  0001 C CNN
 F 3 "~" H 6250 4000 50  0001 C CNN
 	1    6250 4000
 	0    1    1    0   
@@ -247,7 +247,7 @@ AR Path="/618A0689" Ref="C?"  Part="1"
 AR Path="/6188E6DD/618A0689" Ref="C27"  Part="1" 
 F 0 "C27" V 4998 2000 50  0000 C CNN
 F 1 "100n" V 5089 2000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5288 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5288 1850 50  0001 C CNN
 F 3 "~" H 5250 2000 50  0001 C CNN
 	1    5250 2000
 	0    1    1    0   
@@ -260,7 +260,7 @@ AR Path="/618BF7A5" Ref="R?"  Part="1"
 AR Path="/6188E6DD/618BF7A5" Ref="R38"  Part="1" 
 F 0 "R38" V 7543 3500 50  0000 C CNN
 F 1 "1k" V 7634 3500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7680 3500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7680 3500 50  0001 C CNN
 F 3 "~" H 7750 3500 50  0001 C CNN
 	1    7750 3500
 	0    1    1    0   
@@ -273,7 +273,7 @@ AR Path="/618C3A4B" Ref="R?"  Part="1"
 AR Path="/6188E6DD/618C3A4B" Ref="R50"  Part="1" 
 F 0 "R50" H 7930 3704 50  0000 R CNN
 F 1 "1k" H 7930 3795 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7930 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7930 3750 50  0001 C CNN
 F 3 "~" H 8000 3750 50  0001 C CNN
 	1    8000 3750
 	-1   0    0    1   
@@ -286,7 +286,7 @@ AR Path="/618C3B63" Ref="R?"  Part="1"
 AR Path="/6188E6DD/618C3B63" Ref="R27"  Part="1" 
 F 0 "R27" H 8430 3704 50  0000 R CNN
 F 1 "1k" H 8430 3795 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 8430 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8430 3750 50  0001 C CNN
 F 3 "~" H 8500 3750 50  0001 C CNN
 	1    8500 3750
 	-1   0    0    1   
@@ -299,7 +299,7 @@ AR Path="/618E2611" Ref="R?"  Part="1"
 AR Path="/6188E6DD/618E2611" Ref="R37"  Part="1" 
 F 0 "R37" V 7150 4500 50  0000 C CNN
 F 1 "0.2" V 7250 4500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7180 4500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7180 4500 50  0001 C CNN
 F 3 "~" H 7250 4500 50  0001 C CNN
 	1    7250 4500
 	0    1    1    0   
@@ -312,7 +312,7 @@ AR Path="/618E73CC" Ref="R?"  Part="1"
 AR Path="/6188E6DD/618E73CC" Ref="R35"  Part="1" 
 F 0 "R35" H 6650 3350 50  0000 C CNN
 F 1 "1" H 6500 3300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 6430 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6430 3300 50  0001 C CNN
 F 3 "~" H 6500 3300 50  0001 C CNN
 	1    6500 3300
 	1    0    0    -1  
@@ -325,7 +325,7 @@ AR Path="/618FCC1B" Ref="C?"  Part="1"
 AR Path="/6188E6DD/618FCC1B" Ref="C24"  Part="1" 
 F 0 "C24" V 5350 5500 50  0000 C CNN
 F 1 "100n" V 5650 5500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5538 5350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5538 5350 50  0001 C CNN
 F 3 "~" H 5500 5500 50  0001 C CNN
 	1    5500 5500
 	0    1    1    0   
@@ -416,7 +416,7 @@ AR Path="/6191B932" Ref="C?"  Part="1"
 AR Path="/6188E6DD/6191B932" Ref="C36"  Part="1" 
 F 0 "C36" H 9615 5796 50  0000 L CNN
 F 1 "100n" H 9615 5705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9538 5600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9538 5600 50  0001 C CNN
 F 3 "~" H 9500 5750 50  0001 C CNN
 	1    9500 5750
 	1    0    0    -1  
@@ -429,7 +429,7 @@ AR Path="/6191BAAC" Ref="C?"  Part="1"
 AR Path="/6188E6DD/6191BAAC" Ref="C35"  Part="1" 
 F 0 "C35" H 9115 5796 50  0000 L CNN
 F 1 "10u" H 9115 5705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9038 5600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9038 5600 50  0001 C CNN
 F 3 "~" H 9000 5750 50  0001 C CNN
 	1    9000 5750
 	1    0    0    -1  
@@ -473,7 +473,7 @@ AR Path="/61935C1F" Ref="R?"  Part="1"
 AR Path="/6188E6DD/61935C1F" Ref="R36"  Part="1" 
 F 0 "R36" V 8650 5500 50  0000 C CNN
 F 1 "0.2" V 8750 5500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 8680 5500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8680 5500 50  0001 C CNN
 F 3 "~" H 8750 5500 50  0001 C CNN
 	1    8750 5500
 	0    1    1    0   
@@ -497,7 +497,7 @@ AR Path="/6194198F" Ref="C?"  Part="1"
 AR Path="/6188E6DD/6194198F" Ref="C33"  Part="1" 
 F 0 "C33" H 7115 2796 50  0000 L CNN
 F 1 "100n" H 7115 2705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 7038 2600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7038 2600 50  0001 C CNN
 F 3 "~" H 7000 2750 50  0001 C CNN
 	1    7000 2750
 	1    0    0    -1  
