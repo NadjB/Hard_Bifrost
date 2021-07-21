@@ -933,4 +933,9 @@ Wire Wire Line
 	7650 1200 7650 1350
 NoConn ~ 600  5600
 NoConn ~ 600  5500
+NoConn ~ 4100 7350
+NoConn ~ 4100 7450
+NoConn ~ 4100 7550
+NoConn ~ 5000 7450
+NoConn ~ 5000 7250
 $EndSCHEMATC
