@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -207,7 +207,7 @@ F 1 "ADT2-1T" H 4250 3790 50  0000 C CNN
 F 2 "RF_Mini-Circuits:Mini-Circuits_CD542_H2.84mm" H 4250 3150 50  0001 C CNN
 F 3 "https://www.minicircuits.com/pdfs/ADT2-1T+.pdf" H 4250 3500 50  0001 C CNN
 	1    4250 3500
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4900 3500 4900 3400
