@@ -726,10 +726,6 @@ Wire Wire Line
 	9950 3150 10550 3150
 Wire Wire Line
 	7150 1350 7300 1350
-Text Label 1100 5600 0    50   ~ 0
-SDA
-Text Label 1100 5500 0    50   ~ 0
-SCL
 Wire Wire Line
 	5950 2950 6050 2950
 $Comp
@@ -935,4 +931,6 @@ Wire Wire Line
 Connection ~ 7650 1200
 Wire Wire Line
 	7650 1200 7650 1350
+NoConn ~ 600  5600
+NoConn ~ 600  5500
 $EndSCHEMATC
