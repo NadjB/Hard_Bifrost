@@ -377,8 +377,6 @@ Wire Wire Line
 	5500 1050 5500 900 
 Wire Wire Line
 	5000 7250 5000 7350
-Text Label 5000 7250 0    70   ~ 0
-+5V_Ard
 Text Label 5000 7550 0    10   ~ 0
 GND
 Text Label 9950 3150 0    70   ~ 0
@@ -389,12 +387,6 @@ Text Label 9950 3350 0    70   ~ 0
 MOSI
 Text Label 9950 3450 0    70   ~ 0
 SS
-Text Label 9550 1400 0    70   ~ 0
-RESET2
-Text Label 9550 1200 0    70   ~ 0
-MISO2
-Text Label 9550 1300 0    70   ~ 0
-SCK2
 Text Label 800  6000 0    70   ~ 0
 AD0
 Text Label 800  5900 0    70   ~ 0
@@ -555,16 +547,12 @@ Wire Wire Line
 	10500 1400 10700 1400
 Wire Wire Line
 	10700 1400 10700 1500
-Text Label 10700 1300 0    70   ~ 0
-MOSI2
 Wire Wire Line
 	10700 1300 10500 1300
-Text Label 10700 1200 0    10   ~ 0
-+5V
+Text Label 10700 1200 0    21   ~ 0
++5V_Adr_3
 Wire Wire Line
 	10500 1200 10700 1200
-Wire Wire Line
-	10700 1200 10700 1100
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 60E822C1
@@ -620,19 +608,8 @@ F 3 "~" H 1800 1100 50  0001 C CNN
 	1    1800 1100
 	1    0    0    -1  
 $EndComp
-Text Label 600  1000 0    66   ~ 0
-RESET
 Text Label 7700 600  0    10   ~ 0
 GND
-Wire Wire Line
-	1300 1200 600  1200
-Wire Wire Line
-	1600 1200 1300 1200
-Connection ~ 1300 1200
-Wire Wire Line
-	1300 900  1300 1200
-Wire Wire Line
-	1600 900  1300 900 
 $Comp
 L power:GND #PWR0101
 U 1 1 614371B4
@@ -642,17 +619,6 @@ F 1 "GND" H 605 1327 50  0000 C CNN
 F 2 "" H 600 1500 50  0001 C CNN
 F 3 "" H 600 1500 50  0001 C CNN
 	1    600  1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0102
-U 1 1 6143901C
-P 10700 1100
-F 0 "#PWR0102" H 10700 950 50  0001 C CNN
-F 1 "+5V" H 10715 1273 50  0000 C CNN
-F 2 "" H 10700 1100 50  0001 C CNN
-F 3 "" H 10700 1100 50  0001 C CNN
-	1    10700 1100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -672,8 +638,6 @@ Wire Wire Line
 	9550 1400 10000 1400
 Wire Wire Line
 	600  1000 1600 1000
-Text Label 4100 7550 2    66   ~ 0
-RESET
 Wire Wire Line
 	4100 7550 4300 7550
 Wire Wire Line
@@ -704,8 +668,6 @@ Wire Wire Line
 	600  5600 1400 5600
 Wire Wire Line
 	600  5500 1400 5500
-Text Label 5000 7450 0    70   ~ 0
-MOSI
 Wire Wire Line
 	9950 2950 10550 2950
 Text Label 9950 2950 0    70   ~ 0
@@ -718,10 +680,6 @@ Wire Wire Line
 	9950 3650 10550 3650
 Wire Wire Line
 	9950 3550 10550 3550
-Text Label 4100 7350 2    70   ~ 0
-MISO
-Text Label 4100 7450 2    70   ~ 0
-SCK
 Wire Wire Line
 	9950 3150 10550 3150
 Wire Wire Line
@@ -864,7 +822,7 @@ NoConn ~ 9950 2950
 NoConn ~ 9950 3550
 NoConn ~ 9950 3650
 Text Label 600  1200 0    21   ~ 0
-+5V_Ard
++5V_Ard_1
 $Comp
 L power:PWR_FLAG #FLG0108
 U 1 1 61B189E4
@@ -938,4 +896,34 @@ NoConn ~ 4100 7450
 NoConn ~ 4100 7550
 NoConn ~ 5000 7450
 NoConn ~ 5000 7250
+Text Label 600  1000 0    66   ~ 0
+RESET
+Text Label 9550 1400 0    70   ~ 0
+RESET2
+Text Label 9550 1300 0    70   ~ 0
+SCK2
+Text Label 9550 1200 0    70   ~ 0
+MISO2
+Text Label 10700 1300 0    70   ~ 0
+MOSI2
+Text Label 5000 7250 0    70   ~ 0
++5V_Ard_0
+Text Label 5000 7450 0    70   ~ 0
+MOSI_0
+Text Label 4100 7550 2    66   ~ 0
+RESET_0
+Text Label 4100 7450 2    70   ~ 0
+SCK_0
+Text Label 4100 7350 2    70   ~ 0
+MISO_0
+Text Label 600  900  0    21   ~ 0
++5V_Ard_2
+Wire Wire Line
+	600  900  1600 900 
+Wire Wire Line
+	600  1200 1600 1200
+NoConn ~ 600  900 
+NoConn ~ 600  1000
+NoConn ~ 600  1200
+NoConn ~ 10700 1200
 $EndSCHEMATC

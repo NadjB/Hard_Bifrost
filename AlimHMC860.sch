@@ -723,8 +723,6 @@ F 3 "~" H 9500 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9500 5500 9600 5500
-Wire Wire Line
 	9500 1900 9500 2000
 $Comp
 L power:VDD #PWR0154
@@ -753,6 +751,4 @@ F 3 "~" H 9600 4500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9500 4500 9600 4500
-Text GLabel 9600 5500 2    50   Input ~ 0
-IO_SUPPLY
 $EndSCHEMATC
