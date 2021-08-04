@@ -686,8 +686,6 @@ Wire Wire Line
 Wire Wire Line
 	2850 5850 2850 5800
 Wire Wire Line
-	2200 6000 2700 6000
-Wire Wire Line
 	1800 6000 1000 6000
 Wire Wire Line
 	1800 5600 1000 5600
@@ -712,8 +710,6 @@ Wire Wire Line
 	2850 5450 2850 5500
 Wire Wire Line
 	1000 5500 2200 5500
-Wire Wire Line
-	2700 5300 2200 5300
 Wire Wire Line
 	2850 5150 2850 5100
 Wire Wire Line
@@ -1409,4 +1405,74 @@ F 3 "" H 1775 2050 50  0001 C CNN
 	1    1775 2050
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Device:C C?
+U 1 1 610B501D
+P 2450 5500
+AR Path="/60D21B6E/610B501D" Ref="C?"  Part="1" 
+AR Path="/610B501D" Ref="C5"  Part="1" 
+F 0 "C5" H 2425 5425 50  0000 R CNN
+F 1 "100n" H 2425 5600 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2488 5350 50  0001 C CNN
+F 3 "~" H 2450 5500 50  0001 C CNN
+	1    2450 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 610C4CF3
+P 2450 6200
+AR Path="/60D21B6E/610C4CF3" Ref="C?"  Part="1" 
+AR Path="/610C4CF3" Ref="C8"  Part="1" 
+F 0 "C8" H 2425 6125 50  0000 R CNN
+F 1 "100n" H 2425 6300 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2488 6050 50  0001 C CNN
+F 3 "~" H 2450 6200 50  0001 C CNN
+	1    2450 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2200 6000 2450 6000
+Wire Wire Line
+	2200 5300 2450 5300
+Wire Wire Line
+	2450 5350 2450 5300
+Connection ~ 2450 5300
+Wire Wire Line
+	2450 5300 2700 5300
+Wire Wire Line
+	2450 6050 2450 6000
+Connection ~ 2450 6000
+Wire Wire Line
+	2450 6000 2700 6000
+$Comp
+L power:GND #PWR?
+U 1 1 610FEE20
+P 2450 5700
+AR Path="/60D21B6E/610FEE20" Ref="#PWR?"  Part="1" 
+AR Path="/610FEE20" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 2450 5450 50  0001 C CNN
+F 1 "GND" H 2455 5527 50  0000 C CNN
+F 2 "" H 2450 5700 50  0001 C CNN
+F 3 "" H 2450 5700 50  0001 C CNN
+	1    2450 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 5650 2450 5700
+$Comp
+L power:GND #PWR?
+U 1 1 6110A595
+P 2450 6400
+AR Path="/60D21B6E/6110A595" Ref="#PWR?"  Part="1" 
+AR Path="/6110A595" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 2450 6150 50  0001 C CNN
+F 1 "GND" H 2455 6227 50  0000 C CNN
+F 2 "" H 2450 6400 50  0001 C CNN
+F 3 "" H 2450 6400 50  0001 C CNN
+	1    2450 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 6350 2450 6400
 $EndSCHEMATC
