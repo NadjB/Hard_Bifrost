@@ -16,7 +16,7 @@ Gerber*/
 *.zip
 
 *-cache
-*-cache.*
+
 
 MANIFEST
 
