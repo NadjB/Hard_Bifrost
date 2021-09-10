@@ -962,11 +962,11 @@ Wire Wire Line
 Wire Wire Line
 	7550 1900 7550 2200
 Text Label 6225 2100 0    70   ~ 0
-IO2
+IO4
 Text Label 6225 2500 0    70   ~ 0
-IO1
+IO3
 Text Label 6225 2600 0    70   ~ 0
-IO0
+IO2
 Wire Wire Line
 	6050 2100 6225 2100
 Wire Wire Line
