@@ -18,7 +18,7 @@ Wire Wire Line
 Text Label 5000 7550 0    10   ~ 0
 GND
 Text Label 10000 4550 0    70   ~ 0
-SCK
+SCLOCK
 Text Label 10000 4650 0    70   ~ 0
 MISO
 Text Label 10000 4750 0    70   ~ 0
@@ -691,7 +691,7 @@ F9 "MCLK" I L 4000 2175 50
 $EndSheet
 Text Label 3625 2675 2    70   ~ 0
 IO3
-Text Label 4900 2675 0    70   ~ 0
+Text Label 4900 2675 0    50   ~ 0
 IO2
 Wire Wire Line
 	3625 2675 4000 2675
@@ -704,8 +704,8 @@ Wire Wire Line
 Wire Wire Line
 	4775 2675 4900 2675
 Wire Wire Line
-	4775 2575 4900 2575
-Text Label 4900 3700 0    70   ~ 0
+	4775 2575 4800 2575
+Text Label 4900 3700 0    50   ~ 0
 IO5
 Text Label 3625 3700 2    70   ~ 0
 IO6
@@ -738,7 +738,7 @@ Wire Wire Line
 Wire Wire Line
 	4775 3700 4900 3700
 Wire Wire Line
-	4775 3600 4900 3600
+	4775 3600 4800 3600
 Text Label 3625 3500 2    50   ~ 0
 SCK
 Text Label 9375 4950 2    50   ~ 0
@@ -1353,8 +1353,6 @@ Text Label 6925 4600 3    50   ~ 0
 IO4
 Text Label 6725 4600 3    50   ~ 0
 IO7
-NoConn ~ 4900 3600
-NoConn ~ 4900 2575
 Wire Wire Line
 	6525 4375 6525 4450
 $Comp
@@ -1664,4 +1662,30 @@ F 3 "~" H 5050 6175 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5200 6175 5300 6175
+$Comp
+L power:GND #PWR?
+U 1 1 6153F5AF
+P 4800 3600
+AR Path="/60D21B6E/6153F5AF" Ref="#PWR?"  Part="1" 
+AR Path="/6153F5AF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4800 3350 50  0001 C CNN
+F 1 "GND" V 4825 3425 50  0000 C CNN
+F 2 "" H 4800 3600 50  0001 C CNN
+F 3 "" H 4800 3600 50  0001 C CNN
+	1    4800 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6154B629
+P 4800 2575
+AR Path="/60D21B6E/6154B629" Ref="#PWR?"  Part="1" 
+AR Path="/6154B629" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4800 2325 50  0001 C CNN
+F 1 "GND" V 4825 2400 50  0000 C CNN
+F 2 "" H 4800 2575 50  0001 C CNN
+F 3 "" H 4800 2575 50  0001 C CNN
+	1    4800 2575
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
