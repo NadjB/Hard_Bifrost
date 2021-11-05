@@ -7,9 +7,15 @@ Fabrication/
 3D/
 bom/
 Spectra/
-Gerber*/
+Gerber*/sym-lib-table
+
+# Temporary files
+
 *.*-bak
 *.bak
+
+
+viafence-*.json
 *.egg-info/
 .installed.cfg
 *.egg
