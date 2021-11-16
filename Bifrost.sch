@@ -1823,4 +1823,14 @@ Wire Notes Line
 	2050 3675 725  3675
 Text Notes 750  4525 0    50   ~ 0
 DVDD\nQuartz: 50mA\nGéné:     5mA\n\nAVDD\nAmpli: 135mA
+Text Notes 7125 4950 0    50   ~ 0
+Put the switch on D2&D3
+Wire Notes Line
+	7100 4850 8125 4850
+Wire Notes Line
+	8125 4850 8125 4975
+Wire Notes Line
+	8125 4975 7100 4975
+Wire Notes Line
+	7100 4975 7100 4850
 $EndSCHEMATC
