@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -13,15 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 6950 1900 950  350 
-U 60D8B1A1
-F0 "Sheet60D8B1A0" 50
-F1 "Output_HMC900.sch" 50
-F2 "S+" I L 6950 2000 50 
-F3 "S-" I L 6950 2150 50 
-F4 "Out" I R 7900 2050 50 
-$EndSheet
 $Comp
 L Device:C C25
 U 1 1 60D6BADA
@@ -463,17 +454,13 @@ F3 "S-" I R 3000 2300 50
 F4 "In" I L 2100 2200 50 
 $EndSheet
 Wire Wire Line
-	3000 4500 4250 4500
+	3200 4500 4250 4500
 Wire Wire Line
 	4250 3600 4250 4500
 Wire Wire Line
-	3000 4650 4450 4650
+	3200 4650 4450 4650
 Wire Wire Line
 	4450 3700 4450 4650
-Wire Wire Line
-	2100 4550 1950 4550
-Text HLabel 1950 4550 0    50   Input ~ 0
-InQ+
 Wire Wire Line
 	5400 1650 5400 2300
 Text Label 3200 4500 0    50   ~ 0
@@ -519,10 +506,6 @@ Wire Wire Line
 Wire Wire Line
 	5800 4800 6950 4800
 Wire Wire Line
-	7900 2050 8400 2050
-Text HLabel 8400 2050 2    50   Input ~ 0
-OutI+
-Wire Wire Line
 	7900 4700 8400 4700
 Text HLabel 8400 4700 2    50   Input ~ 0
 OutQ+
@@ -564,15 +547,6 @@ InI+
 Wire Wire Line
 	2100 2200 1950 2200
 $Sheet
-S 2100 4400 900  350 
-U 60F52DEE
-F0 "sheet60F52DEE" 50
-F1 "Input_HMC900.sch" 50
-F2 "S+" I R 3000 4650 50 
-F3 "S-" I R 3000 4500 50 
-F4 "In" I L 2100 4550 50 
-$EndSheet
-$Sheet
 S 6950 4550 950  350 
 U 60F5ADAC
 F0 "sheet60F5ADAC" 50
@@ -581,4 +555,34 @@ F2 "S+" I L 6950 4650 50
 F3 "S-" I L 6950 4800 50 
 F4 "Out" I R 7900 4700 50 
 $EndSheet
+Wire Wire Line
+	7250 2000 7450 2000
+Wire Wire Line
+	7250 2150 7450 2150
+Text Label 7450 2000 0    50   ~ 0
+IQN
+Text Label 7450 2150 0    50   ~ 0
+IQP
+$Comp
+L Device:R R5
+U 1 1 61B49135
+P 7100 2000
+F 0 "R5" V 7200 1950 50  0000 L CNN
+F 1 "51" V 7100 1950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7030 2000 50  0001 C CNN
+F 3 "~" H 7100 2000 50  0001 C CNN
+	1    7100 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 61B5A7B5
+P 7100 2150
+F 0 "R6" V 7000 2100 50  0000 L CNN
+F 1 "51" V 7100 2100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7030 2150 50  0001 C CNN
+F 3 "~" H 7100 2150 50  0001 C CNN
+	1    7100 2150
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
