@@ -10,6 +10,7 @@ Spectra/
 Gerber*/
 *.*-bak
 *.bak
+*.kicad_prl
 *.egg-info/
 .installed.cfg
 *.egg
