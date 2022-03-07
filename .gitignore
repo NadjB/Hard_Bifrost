@@ -23,6 +23,10 @@ viafence-*.json
 
 *-cache
 
+# personalisation files
+
+*.kicad_prl
+
 
 MANIFEST
 
