@@ -4146,7 +4146,7 @@
     (property "Reference" "C1" (id 0) (at 149.225 68.58 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1n" (id 1) (at 154.94 72.39 90)
+    (property "Value" "10n" (id 1) (at 154.94 72.39 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (id 2) (at 157.48 70.1548 0)
@@ -4165,7 +4165,7 @@
     (property "Reference" "C2" (id 0) (at 149.225 73.66 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1n" (id 1) (at 154.94 77.47 90)
+    (property "Value" "10n" (id 1) (at 154.94 77.47 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (id 2) (at 157.48 75.2348 0)
@@ -4578,10 +4578,10 @@
       (reference "AD1") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
     (path "/00f3d2c9-0a01-4d63-befb-f2061e1d4edb"
-      (reference "C1") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "C1") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/01e220c1-f50b-4aa5-8c5b-e2610f2347fc"
-      (reference "C2") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "C2") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-0000617193a6"
       (reference "C3") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
