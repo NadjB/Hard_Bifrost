@@ -11,8 +11,7 @@ Gerber*/sym-lib-table
 
 # Temporary files
 
-*.*-bak
-*.bak
+*.*bak
 
 
 viafence-*.json
